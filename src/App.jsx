@@ -191,7 +191,6 @@ function App() {
 
   return (
     <div className="app">
-     
       <header className="header">
         <h1>StockPilot</h1>
         <div className="add-product-form">
@@ -243,7 +242,6 @@ function App() {
           </button>
         </div>
       </header>
-
 
       <div className="search-filter">
         <input

@@ -1,12 +1,25 @@
-# React + Vite
+# StockPilot Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StockPilot Frontend is a **React-based inventory management application** that interacts with a FastAPI backend to manage stock, add new products, and filter/search items efficiently.
 
-Currently, two official plugins are available:
+## Features 🚀
+- **Product Listing:** Displays all available products from the backend.
+- **Filtering &Searching:** Search products by name and filter by category.
+- **Low Stock Indicator:** Highlights products with critical stock levels.
+- **Add Products:** Users can add new products dynamically via API.
+- **Smooth UI:** Clean and interactive interface built with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used 🛠️
+- **React** (Component-based UI)
+- **React Router** (For navigation)
+- **Fetch API** (For backend communication)
+- **CSS** (For styling)
 
-## Expanding the ESLint configuration
+[Video link](https://drive.google.com/file/d/162W64kSMsPqCBAvnAcXjSvL1fhCg-L_k/view?usp=sharing)
+## Setup Instructions 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install Dependencies
+Ensure you have **Node.js** installed, then run:
+```bash
+npm install
+npm run dev
